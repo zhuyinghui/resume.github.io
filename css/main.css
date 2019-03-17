@@ -218,7 +218,7 @@ header{
  	3.1 Menu Style
 ------------------------------------------------------*/
 .isStuck{
-    left:0px;
+    left:0;
     width:100%;
 }
 .menu{
@@ -236,9 +236,6 @@ header{
 	height:80px;
 	font-size:0;
 	line-height:0;
-}
-.isStuck .logo{
-	background:url(../images/logo.png) no-repeat 0 0;
 }
 .navwrapper .container{
 	padding:0;
@@ -304,13 +301,13 @@ header{
 }
 
 .navbar-wrapper {
-  margin-top:0px;
+  margin-top:0;
   height:80px;
   position: relative;
   z-index: 15;
 }
 .navbar-wrapper .container{
-	padding:0px;
+	padding:0;
 }
 
 .navbar-collapse{
@@ -321,7 +318,7 @@ header{
 }
 
 .navbar.navbar-inverse.navbar-static-top {
-  margin:0px auto;
+  margin:0 auto;
   background:none;
   color:#c3c8d6;
   border:none;
@@ -495,7 +492,7 @@ header{
 
 .skillbar-bar {
 	height:7px;
-	width:0px;
+	width:0;
 	background:#e88988;
 }
 
@@ -539,7 +536,6 @@ header{
 .expertiesdesc h4 {
 	font-size:14px;
 	font-weight:300;
-	color:#UIzards;
 	line-height:normal;
 	text-transform:uppercase;
 	letter-spacing:2px;
@@ -655,22 +651,22 @@ header{
 }
 ul.portfolioContainer{
 	display:block;
-	padding:0px;
+	padding:0;
 	margin-bottom:0;
 	list-style-type:none;
 }
 ul.portfolioContainer li{
 	display:block;
 	height:auto;
-	padding:0px;
-	margin:0px;
+	padding:0;
+	margin:0;
 	cursor:pointer;
 	border:1px solid #fff;
 	width:24.8%;
 }
 ul.portfolioContainer li .lightCon{
 	display:block;
-	margin:0px;
+	margin:0;
 	position:relative;
 	overflow:hidden;
 }
@@ -710,8 +706,8 @@ span.hoverBox a{
 }
 
 span.hoverBox .smallIcon{
-	width: 74x;
-	margin: 0px auto;
+	width: 74px;
+	margin: 0 auto;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -862,7 +858,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	overflow:hidden;
 	width:100%;
 	margin:0;
-	background:#3b323c;
+	background:#f8f8f8;
 }
 .mapArea iframe{
 	width:100%;
@@ -949,7 +945,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .contactInfo{
-	background:#101010 url(../images/contact-bg.jpg) repeat 0 0 fixed;
 	text-align:center;
 	padding:94px 0 35px;
 	position:relative;
@@ -1257,20 +1252,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		float:none;
 		width:100%;
 		height:40px;
-		background:url(../images/arrow-top.png) no-repeat 50% 100%;
 	}
-	.education .arrowpart{
-		background:url(../images/arrow-top-light.png) no-repeat 50% 100%;
-	}
+
 	.exCon{
 		margin-left:0px;
 	}
-	/*.stuckMenu .closeMenu {
-		display:none;
-		left:10px;
-		top:24px !important;
-		right:inherit;
-	}*/
+
 	.closeMenu,
 	.nav-icon{
 		display:none;
